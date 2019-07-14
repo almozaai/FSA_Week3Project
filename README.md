@@ -91,9 +91,9 @@ console.log(cleanedScores !== scores);
 multBy takes a number, and returns a function. That function takes another number and returns the product of that number and the number passed to multBy. If multBy is passed anything other than a number, then the returned function should use one instead of what was passed into multBy.
 ```sh
 const multBy3 = multBy(3);
-console.log(multBy3(4));//12
+console.log(multBy3(4)); => 12
 const multBy5 = multBy(5);
-console.log(multBy5(10));//50
+console.log(multBy5(10)); => 50
 const multByNotNumber = multBy('a');
-console.log(multByNotNumber(10));//10
+console.log(multByNotNumber(10)); => 10
 ```
